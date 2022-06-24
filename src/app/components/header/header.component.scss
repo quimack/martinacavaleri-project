@@ -1,0 +1,28 @@
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    padding: .8rem 3rem;
+    border-bottom: 1px solid #323232;
+    background-color: #fffaef;
+    z-index: 3;
+    position: relative;
+    .logo-txt > p{
+        color: #323232;
+        font-weight: 500;
+        font-size: 1.8rem;
+        margin: 0;
+        // font-family: 'Jost';
+        font-family: 'Didact Gothic', sans-serif;
+        // font-family: 'Space Grotesk', sans-serif;    
+        // font-family: 'Noto Sans Display', sans-serif;
+    }
+    .btn-contact{
+        text-decoration: none;
+        color: #323232;
+    }
+}
