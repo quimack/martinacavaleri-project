@@ -1,28 +1,56 @@
 
-.container{
-    box-sizing: border-box;
+.wrapper{
+    position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 4vw;
+    height: 100vh;
     font-size: 18px;
-    padding: .8rem 3rem;
-    border-bottom: 1px solid #323232;
-    background-color: #fffaef;
-    z-index: 3;
-    position: relative;
+    background-color: #f5f5dc;
+    color: #23210e;
+    .arrow-icon{
+        font-size: 2rem;
+    }
     .logo-txt > p{
-        color: #323232;
+        // color: #323232;
         font-weight: 500;
-        font-size: 1.8rem;
-        margin: 0;
+        font-size: 1.6rem;
+        margin-top: 10rem;
+        width: 600px;
+        // margin-bottom: 60%;
         // font-family: 'Jost';
         font-family: 'Didact Gothic', sans-serif;
+        transform: rotate(270deg);
         // font-family: 'Space Grotesk', sans-serif;    
         // font-family: 'Noto Sans Display', sans-serif;
     }
-    .btn-contact{
-        text-decoration: none;
-        color: #323232;
+    .social-media-container{
+        .expand-icon{
+            background: center / contain url(../../../assets/icons/angle-up.png);
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 0 0 -.2rem;
+            padding: 2rem 0;
+        }
+        .icon{
+            width: 1.2rem;
+            height: 1.2rem;
+            cursor: pointer;
+            img{
+                width: 100%;
+            }
+            &.whatsapp{
+                margin-bottom: 1rem;
+            }
+            &:hover{
+                transform: scale3d(1.2, 1.2, 1.2);
+            }
+        }
     }
 }

@@ -1,18 +1,13 @@
-.container{
+.wrapper{
+    display: flex;
+    background-color: #f5f5dc;
+
     .body{
-        position: relative;
-        .photo-container{
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 280px;
-            z-index: 1;
-            img{
-                width: 84%;
-            }
-    }
+        display: flex;
+        justify-content: center;     
+        width: 96vw;
+        img{
+            height: 100vh;
+        }
     }
 }

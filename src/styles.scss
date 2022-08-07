@@ -4,3 +4,37 @@ body{
     margin: 0;
     overflow: hidden;
 }
+
+ngb-carousel{
+    &:active{
+        display: flex !important;
+        justify-content: center;
+    }
+    .carousel-inner{
+        // position: relative;
+        // display: flex !important;
+        // justify-content: center !important;
+        // max-width: 96vw !important;
+        .carousel-item{
+        }
+    }
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-menu{
+    background: transparent !important;
+    border: none !important;
+}
+.dropdown-item{
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    cursor: pointer;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
